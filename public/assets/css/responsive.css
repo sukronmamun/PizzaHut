@@ -1,0 +1,92 @@
+
+@media screen and (max-width:768px){
+    
+    body{
+        overflow: scroll
+    }
+    #karyawan #head_cover, #karyawan #head_cover:after,
+    #head_cover,#head_cover:after{
+        height: 100vh !important
+    }
+    #karyawan #head_cover,
+    #head_cover{
+        flex-direction: column
+    }
+    #head_cover .status p{
+        font-size: 0.7em;
+        text-align: center
+            
+    }
+     #head_cover .logo,
+ #head_cover .status,
+    #head_cover .setting{
+        padding: 10px;
+    }
+   #head_cover .logo{
+        margin-top: 100px;
+    }
+    .setting .fa{
+        width: 100%;
+        text-align: center
+    }
+    .setting #jam-digital{
+        position: relative;
+    }
+    .identitas .img{
+        margin-top: 7px;
+    }
+   
+    .main-content{
+        overflow: auto;
+    }
+    
+    .sidebarmain{
+        
+        font-size: 10px;
+    }
+    .sidebarmain img{
+        width: 90px;
+        height: 90px;
+        border-radius: 0;
+    }
+    .graf-info-cuti{
+        height: 40vh
+    }
+    .ct-chart{
+        margin-top: 20px;
+    }
+    .setting-karyawan{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+    .contain{
+        width: 100%;
+        height: auto;
+        background-color: #b6273f;
+    }
+    .icon{
+        width: 100%;
+        border-bottom: 1px solid rgba(255,255,255,.5);
+        padding: 3px 0;
+    }
+    #user .sidebar{
+        height: 50vh
+    }
+    #user .sidebar .sidebarmain{
+        margin-top: 5vh
+    }
+    #user #jam-digital .jam{
+        margin-top: 10px;
+        position: relative
+    }
+    #user #jam-digital .jam span{
+        margin-top: 5px;
+    }
+    #ajukanCuti{
+        width: 90% !important;
+    }
+}
